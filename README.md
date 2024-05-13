@@ -2,10 +2,11 @@
 <H3>ENTER YOUR REGISTER NO:212221240059</H3>
 <H3>DATE:13.05.2024</H3>
 <H1 Align="center">Project Based Experiment<H1>
-<H3>Objective:<H3>
+    
+### Objective:
 Perform sentiment analysis using your Facebook data and count the number of Occurrences of Kindle  in the extracted text.
 
-<H3>Program:</H3>
+### Program:
 ```
 import pandas as pd
 from textblob import TextBlob
@@ -42,10 +43,10 @@ print("Sentiment Analysis Results:")
 ### Print occurrences of the given name
 print(f"Occurrences of '{given_name}': {name_occurrences}")
 ```
-<H3>Output:</H3>
+### Output:
 ```
 ![image](https://github.com/Pallavi-Raveendranadreddy/Project-Based-Experiment-AAI/assets/94294872/27667f3d-11a4-44d5-b1b2-f22016a4c322)
 ```
-<H3>Inference:</H3>
+### Inference:
 
 By exploring sentiment analysis techniques and applying them to social media data, I gained practical experience in extracting sentiment information and identifying patterns in text. Additionally, counting occurrences of specific names enhanced my understanding of text processing and how to extract meaningful information from large datasets.
