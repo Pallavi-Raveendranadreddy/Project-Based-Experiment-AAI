@@ -44,9 +44,8 @@ print("Sentiment Analysis Results:")
 print(f"Occurrences of '{given_name}': {name_occurrences}")
 ```
 ### Output:
-```
+
 ![image](https://github.com/Pallavi-Raveendranadreddy/Project-Based-Experiment-AAI/assets/94294872/27667f3d-11a4-44d5-b1b2-f22016a4c322)
-```
 ### Inference:
 
 By exploring sentiment analysis techniques and applying them to social media data, I gained practical experience in extracting sentiment information and identifying patterns in text. Additionally, counting occurrences of specific names enhanced my understanding of text processing and how to extract meaningful information from large datasets.
