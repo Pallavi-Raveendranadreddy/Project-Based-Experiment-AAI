@@ -10,17 +10,17 @@ Perform sentiment analysis using your Facebook data and count the number of Occu
 import pandas as pd
 from textblob import TextBlob
 
-# Read data from Excel file
+### Read data from Excel file
 data = pd.read_csv("fb_sentiment.csv")  # Replace "facebook_data.xlsx" with your file path
 
-# Given name to count occurrences
+### Given name to count occurrences
 given_name = "Kindle"
 
-# Initialize counters for sentiment analysis and name occurrences
+### Initialize counters for sentiment analysis and name occurrences
 sentiment_counts = {'positive': 0, 'negative': 0, 'neutral': 0}
 name_occurrences = 0
 
-# Perform sentiment analysis and count occurrences of the given name
+### Perform sentiment analysis and count occurrences of the given name
 for index, row in data.iterrows():
     # Perform sentiment analysis
     blob = TextBlob(row['FBPost'])
@@ -35,14 +35,17 @@ for index, row in data.iterrows():
     # Count occurrences of the given name
     name_occurrences += row['FBPost'].lower().count(given_name.lower())
 
-# Print sentiment analysis results
+### Print sentiment analysis results
 print("Sentiment Analysis Results:")
 
 
-# Print occurrences of the given name
+### Print occurrences of the given name
 print(f"Occurrences of '{given_name}': {name_occurrences}")
 ```
 <H3>Output:</H3>
+```
 ![image](https://github.com/Pallavi-Raveendranadreddy/Project-Based-Experiment-AAI/assets/94294872/27667f3d-11a4-44d5-b1b2-f22016a4c322)
+```
 <H3>Inference:</H3>
+
 By exploring sentiment analysis techniques and applying them to social media data, I gained practical experience in extracting sentiment information and identifying patterns in text. Additionally, counting occurrences of specific names enhanced my understanding of text processing and how to extract meaningful information from large datasets.
